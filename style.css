@@ -1,0 +1,276 @@
+*,
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
+
+
+body {
+  box-sizing: border-box;
+  border: 12px solid #161618;
+  border: ;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #161618;
+
+}
+
+.head-imag ul {
+  display: inline;
+  flex-direction: row-reverse;
+}
+
+.painel {
+  background-color: #26252A;
+  color: #f0f0f0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* propiedade do header*/
+}
+
+.painel img {
+  margin: 10px;
+  width: 5%;
+  border-bottom: 10px;
+  object-fit: cover;
+  display: inline;
+  float: left;
+  align-items: center;
+  /* serve apenas pra logo do canto*/
+}
+
+.icon-painel {
+  display: flex;
+  /*coloca itens a direita e torna a div u container*/
+}
+
+.icon-painel img {
+  vertical-align: middle;
+  width: 4%;
+  display: inline;
+  margin-top: 40px;
+  float: right;
+  /*img lado avatar*/
+}
+
+.avatar img {
+  float: right;
+  width: 3.5%;
+  vertical-align: middle;
+}
+
+
+
+.tabela-container {
+  overflow: scroll;
+  height: 300px;
+}
+
+
+main {
+
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 78%;
+  padding: 10px;
+  margin: 40px;
+  position: absolute;
+  top: 250px;
+  margin: 20px;
+  margin-left: 20%;
+  /* Add left margin */
+}
+
+.table {
+  background-color: #EEEEEF;
+}
+
+
+
+li {
+  display: inline;
+  margin-right: 10px;
+  padding: 0 4px;
+  justify-content: flex-end;
+}
+
+table {
+  justify-content: center;
+  width: 90%;
+  margin: 20 auto;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+}
+
+.table p {
+  color: #B8B8B8;
+}
+
+th,
+td {
+  border-bottom: 3px solid #EEEEEF;
+  padding: 8px;
+  text-align: left;
+}
+
+.tr img {
+  width: 20%;
+}
+
+
+.card {
+  overflow: auto;
+  max-height: 300px;
+  padding: 10px 20px 30px 10px;
+  position: absolute;
+  width: 78%;
+  top: 50px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  margin-left: 20%;
+
+}
+
+.logo-header img {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 15%;
+  height: 15%;
+  padding-top: 8px;
+  /* Adicione a largura da imagem */
+}
+
+.logo-header p {}
+
+.logo-header {
+  margin-left: 10px;
+  text-align: left;
+
+}
+
+.card img {
+  width: 90%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container img {
+  padding: 10px;
+  border: 1px color: #26252A;
+
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  height: 30px;
+  border: 1px color: #26252A;
+}
+
+.search-container button[type="submit"] {
+  margin-left: 10px;
+  padding: 10px;
+  width: 130px;
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  height: 30px;
+  justify-content: center;
+  background-color: #4367FB;
+  border: 1px,
+
+}
+
+
+
+
+
+
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar {
+  text-align: center;
+  background-color: #26252A;
+  color: #fff;
+  top: 12;
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 175vh;
+  width: 200px;
+  padding: 10px 10px 30px 10px;
+  align-items: center;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+
+
+.sidebar button {
+  height: 60px;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+
+}
+
+.search-container img {
+  transition: transform 1s;
+}
+
+.search-container:hover img {
+  transform: scale(1.2);
+}
+
+.logo-img {
+  margin-top: 18px;
+  height: 40px;
+  width: 40px;
+  transition: transform 0.7s;
+}
+
+.logo-img:hover {
+  transform: scale(1.2);
+}
+
+th,
+td {
+  border-bottom: 3px solid #EEEEEF;
+  padding: 8px;
+  text-align: left;
+}
