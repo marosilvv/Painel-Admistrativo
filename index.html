@@ -13,6 +13,163 @@
             font-family: 'Roboto', sans-serif;
 
         }
+
+        @media screen (max-width:829px) {
+            .painel-text {
+                font-size: 8px;
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .avatar3 img {
+                width: 5px;
+                display: inline-block;
+            }
+
+            .avatar2 img {
+                width: 5px;
+                display: inline-block;
+
+            }
+
+            .logo-header img {
+                width: 30%;
+            }
+
+            .icon-painel img {
+                width: 10vh;
+            }
+
+
+            .painel-text {
+                visibility: hidden;
+            }
+
+            .logo-header {
+                text-align: left;
+
+            }
+
+
+
+            .sidebar {
+                display: none;
+            }
+
+            .card {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            main {
+                justify-content: center;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            .card {
+                margin-left: 5%;
+            }
+
+            .icon-painel img {
+                /
+            }
+
+            table {
+
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+
+        }
+
+        @media (max-width: 1026px) {
+
+
+            .logo-header img {
+                width: 14%;
+            }
+
+            .icon-painel img {
+                width: 10%;
+            }
+
+            .avatar img {
+                margin-bottom: 40px;
+                width: 8%;
+            }
+
+            .logo-header {
+
+                text-align: left;
+
+            }
+
+            .logo-header p {
+                margin-bottom: 10px;
+                justify-content: center;
+            }
+
+
+
+            .sidebar {
+                width: 150px;
+
+
+            }
+
+            .card {
+                margin-left: 20%;
+            }
+
+            main {
+                border-radius: 10px;
+                width: 78%;
+                padding: 10px;
+                margin: 40px;
+                position: absolute;
+                top: 250px;
+                margin: 20px;
+                margin-left: 20%;
+                /* Add left margin */
+            }
+
+            .icon-painel img {
+                vertical-align: middle;
+                display: inline;
+                margin-top: 40px;
+                float: right;
+                /*img lado avatar*/
+            }
+
+
+            .avatar3 img {
+                margin-bottom: 40px;
+                align-items: center;
+                height: auto;
+                width: 40px;
+            }
+
+            .avatar2 img {
+                width: 40px;
+                align-items: center;
+                height: auto;
+            }
+
+
+            table {
+
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+
+        }
+        }
     </style>
 </head>
 
@@ -26,16 +183,16 @@
     <div class="icon-painel">
 
         <ul>
-            <div class="avatar">
-                <li><img src="img/download (6).jpeg" style="  border-radius: 50%;"></li>
 
-                <li><img src="img/sair.png" style="width: 3%;"></li>
-                <li><img src="img/notificacao.png" style="width: 3%;"></li>
-                <li>
-                    <h1>Painel Admnistrativo</h1>
-                </li>
-            </div>
-        </ul>
+            <li class="avatar"><img src="img/download (6).jpeg" style="  border-radius: 50%;"></li>
+            <li class="avatar2"><img src="img/sair.png""></li>
+            <li class=" avatar3"><img src="img/notificacao.png"></li>
+
+            <li>
+                <h2 class="painel-text">Painel Admnistrativo</h>
+            </li>
+    </div>
+    </ul>
     </div>
     </div>
 </header>
@@ -122,7 +279,7 @@
             <form>
                 <h3>Revendas</h3>
                 <div class="search-container">
-                    <img src="img/lupa.png" style="width: 5%;" alt="Ícone de pesquisa">
+                    <img src="img/lupa.png" style="width: 8vh;" alt="Ícone de pesquisa">
                     <input type="text" placeholder="Digite aqui...">
                     <button type="submit">Pesquisar</button>
                 </div>
@@ -222,7 +379,6 @@
 
         </div>
         </div>
-
 
 
     </main>

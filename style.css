@@ -14,7 +14,8 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-color: #161618;
-
+  transition: 3s;
+  transition: all 0.5s ease-in-out;
 }
 
 .head-imag ul {
@@ -29,6 +30,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  object-fit: cover;
   /* propiedade do header*/
 }
 
@@ -50,17 +52,24 @@ body {
 
 .icon-painel img {
   vertical-align: middle;
-  width: 4%;
+  ;
   display: inline;
   margin-top: 40px;
   float: right;
   /*img lado avatar*/
 }
 
-.avatar img {
-  float: right;
-  width: 3.5%;
-  vertical-align: middle;
+.avatar3 img {
+
+  align-items: center;
+  height: auto;
+  width: 5vh;
+}
+
+.avatar2 img {
+  width: 5vh;
+  align-items: center;
+  height: auto;
 }
 
 
@@ -72,7 +81,6 @@ body {
 
 
 main {
-
   background-color: #FFFFFF;
   border-radius: 10px;
   width: 78%;
@@ -82,7 +90,8 @@ main {
   top: 250px;
   margin: 20px;
   margin-left: 20%;
-  /* Add left margin */
+  transition: 3s;
+  transition: all 0.5s ease-in-out;
 }
 
 .table {
@@ -100,12 +109,13 @@ li {
 
 table {
   justify-content: center;
-  width: 90%;
+  width: 80%;
   margin: 20 auto;
   margin: 60px;
   display: flex;
   flex-direction: column;
   border-collapse: collapse;
+
 }
 
 .table p {
@@ -138,21 +148,25 @@ td {
   align-items: center;
   margin: 40px;
   margin-left: 20%;
-
+  transition: 3s;
+  transition: all 0.5s ease-in-out;
 }
 
 .logo-header img {
   margin-top: 10px;
-  margin-left: 30px;
-  width: 15%;
-  height: 15%;
+  width: 8%;
+  height: 8%;
   padding-top: 8px;
   /* Adicione a largura da imagem */
+  transition: 3s;
+  transition: all 0.5s ease-in-out;
 }
 
 .logo-header p {}
 
+
 .logo-header {
+
   margin-left: 10px;
   text-align: left;
 
@@ -191,7 +205,8 @@ td {
   justify-content: center;
   background-color: #4367FB;
   border: 1px,
-
+    transition: 3s;
+  transition: all 0.5s ease-in-out;
 }
 
 
@@ -215,6 +230,8 @@ td {
 }
 
 .sidebar {
+  transition: 3s;
+  transition: all 0.5s ease-in-out;
   text-align: center;
   background-color: #26252A;
   color: #fff;
@@ -223,7 +240,7 @@ td {
   flex-direction: column;
   align-items: flex-start;
   height: 175vh;
-  width: 200px;
+  width: 150px;
   padding: 10px 10px 30px 10px;
   align-items: center;
 }
@@ -235,7 +252,10 @@ td {
   margin-bottom: 16px;
 }
 
-
+.sidebar button {
+  background-color: #161618;
+  transition: background-color 0.3s;
+}
 
 .sidebar button {
   height: 60px;
